@@ -3,7 +3,7 @@
 General Aspects:
 - The initiative to create a collaborative effort to develop unexplored potentials is proposed. 
 - Matias proposes 6 axes that manifest themselves as macro areas from which it would be good to learn.
-Artificial Intelligence.
+  - Artificial Intelligence.
   - Web Development as a tool (Global Impact) (to be explored)
   - Cryptography
   - Quantum Computing
