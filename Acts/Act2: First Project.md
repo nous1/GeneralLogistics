@@ -2,7 +2,7 @@
 
 #### Pending Tasks Progress/Results
 - 3 Possible ML applications:
-  - The document 'The AI/ML development areas' was produced, with a list of 6 successful ML applications
+  - The document 'ML&AI topics' was produced, with a list of 6 successful ML applications
   and 56 areas in which AI has important development.
   - An agreement was reached about the need for focusing on finding datasets instead of researching existing 
   successful projects, because those successes would not inform us what we will be able to do now.
