@@ -1,4 +1,4 @@
-## ML&AI Topics
+## ML&AI Topics 
 
 
 ### 1) Successes
@@ -142,3 +142,6 @@ http://www.businessinsider.com/artificial-intelligence-ai-most-impressive-achiev
   - Volverse un twitter troll
   - Colaborar (o volverse agresivo)
   - escribir su propio software de machine learning
+  
+  
+This document addresses Issue #1 ML topic finding task.
