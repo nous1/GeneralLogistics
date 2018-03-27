@@ -1,5 +1,7 @@
 ## ML Tutorials
 
+### Selected
+
 Summary: https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 - Amazing content
@@ -26,6 +28,19 @@ To read: https://medium.com/machine-learning-for-humans/supervised-learning-7403
 - Long
 - NO  STANDARDS
 - Theory (to unsuperviced, including)
+
+
+Only analysis: http://www.scipy-lectures.org/packages/statistics/index.html
+
+- Good content
+- Easy
+- Clear
+- Direct
+- All standards
+- ONLY STAT, AND MORE THAN NECESARY
+
+
+### No selected
 
 Regression: https://www.pybonacci.org/2015/01/14/introduccion-a-machine-learning-con-python-parte-1/
  https://www.pybonacci.org/2015/04/06/introduccion-a-machine-learning-con-python-parte-2/
@@ -93,15 +108,6 @@ All class: https://towardsdatascience.com/machine-learning-nlp-text-classificati
 - All standards
 - NO STAT ANALYSIS
 
-
-Only analysis: http://www.scipy-lectures.org/packages/statistics/index.html
-
-- Good content
-- Easy
-- Clear
-- Direct
-- All standards
-- ONLY STAT, AND MORE THAN NECESARY
 
 Survey: https://www.digitalocean.com/community/tutorials/an-introduction-to-machine-learning
 
