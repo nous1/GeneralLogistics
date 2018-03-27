@@ -102,3 +102,12 @@ Only analysis: http://www.scipy-lectures.org/packages/statistics/index.html
 - Direct
 - All standards
 - ONLY STAT, AND MORE THAN NECESARY
+
+Survey: https://www.digitalocean.com/community/tutorials/an-introduction-to-machine-learning
+
+- TOO SUPERFICIAL
+- Easy
+- Clear
+- Direct
+- No standards
+- NO STAT
