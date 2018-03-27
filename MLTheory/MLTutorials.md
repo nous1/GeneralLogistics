@@ -32,12 +32,12 @@ To read: https://medium.com/machine-learning-for-humans/supervised-learning-7403
 
 Only analysis: http://www.scipy-lectures.org/packages/statistics/index.html
 
-- Good content
+- Amazing content
 - Easy
 - Clear
 - Direct
 - All standards
-- ONLY STAT, AND MORE THAN NECESARY
+- ONLY STAT
 
 
 ### No selected
