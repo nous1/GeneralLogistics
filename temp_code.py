@@ -42,15 +42,17 @@ pandas.set_option('display.width', 2000)
 #ax.ticklabel_format(style='plain')
 #plt.show()
 
-
-dataset['NIV_EDUC_ENCODED'] = LabelEncoder().fit_transform(dataset['NIV_EDUC'])
+# Transformar columnas nominales a numericas
+dataset['NIV_EDUC_ENCODED'] = LabelEncoder().fit_transform(dataset['NIV_EDUC']) 
 dataset['GENERO_ENCODED'] = dataset['GENERO'].map({'F       ':0,'M       ':1})
 dataset['E_CIVIL_ENCODED']  = LabelEncoder().fit_transform(dataset['E_CIVIL'])
 dataset['CIUDAD_ENCODED'] = LabelEncoder().fit_transform(dataset['CIUDAD'])
+# Eliminar columnas originales
 del dataset['GENERO']
 del dataset['NIV_EDUC']
 del dataset['E_CIVIL']
 del dataset['CIUDAD']
+# Eliminar todas las filas donde Monto_solicitado sea cero.
 dataset = dataset.drop(dataset[dataset['Monto_solicitado']==0].index)
 
 
