@@ -51,7 +51,8 @@ del dataset['GENERO']
 del dataset['NIV_EDUC']
 del dataset['E_CIVIL']
 del dataset['CIUDAD']
-print(dataset[dataset['Monto_solicitado']==0].index)
+dataset = dataset.drop(dataset[dataset['Monto_solicitado']==0].index)
+
 
 
 
