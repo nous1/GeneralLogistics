@@ -15,7 +15,7 @@
      * Attribute distribution (pareto, normal, uniform, ...)
      * Per attribute Plots (satter for numerical, barplots for categorical)
        * Optional: Histograms following rules in 
-         https://github.com/nous1/GeneralLogistics/blob/master/ManPages/TutorialLinks.md
+          https://github.com/nous1/GeneralLogistics/blob/master/ManPages/TutorialLinks.md
   
   1. Data cleaning
      * Replace NaN values 
@@ -40,3 +40,9 @@
   * Data cleaning
   * Importance of attribute distribution
   * Learning algorithm finetuning
+
+### Assigned Task
+
+* Follow the ML Develpment Layout for the datasets:
+  * https://archive.ics.uci.edu/ml/datasets/Mushroom
+  * https://archive.ics.uci.edu/ml/datasets/Poker+Hand
