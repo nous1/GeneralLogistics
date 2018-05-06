@@ -1,5 +1,13 @@
 
-Meeting Content
+## Nous Project - 8th Meeting Results
+
+### Meeting Content
+
+* Simple Report Review
+  * Acceptable accuracy obtained
+  * Need for improving:
+    * Reasons for not perfect accuracy
+    * Get the feel for the overall ML development layout
 
 * Tentative Supervised ML Development Layout for Classification
   1. Initial analisis
