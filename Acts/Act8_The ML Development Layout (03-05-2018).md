@@ -11,15 +11,15 @@
 
 * Tentative Supervised ML Development Layout for Classification
   1. Initial analisis
-    * Main statistics (means, std, missings, counts)
-    * Attribute distribution (pareto, normal, uniform, ...)
-    * Per attribute Plots (satter for numerical, barplots for categorical)
-      * Optional: Histograms following rules in 
-        https://github.com/nous1/GeneralLogistics/blob/master/ManPages/TutorialLinks.md
+     * Main statistics (means, std, missings, counts)
+     * Attribute distribution (pareto, normal, uniform, ...)
+     * Per attribute Plots (satter for numerical, barplots for categorical)
+       * Optional: Histograms following rules in 
+         https://github.com/nous1/GeneralLogistics/blob/master/ManPages/TutorialLinks.md
   
   1. Data cleaning
-    * Replace NaN values 
-      * Mean/max/min in numeric values and Mode/weighted-probability in categorical.
+     * Replace NaN values 
+       * Mean/max/min in numeric values and Mode/weighted-probability in categorical.
 
   1. Initial attribute selection
 
