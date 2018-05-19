@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score,f1_score
 import pandas as pd
 import matplotlib.pyplot as plt
 from pandas import plotting
+import sys
 
 # Create Data Frame
 
@@ -29,8 +30,8 @@ selected_categs = ['cap-sh','cap-sur',
         'stalk-surbe-ring','stalk-col-abring',
         'stalk-col-bering','ring-ty','population',
         'habitat'];
-for cat in selected_categs:
-    df=pd.get_dummies(df,columns=[cat]);
+#df=pd.get_dummies(df,columns=selected_categs);
+df=pd.get_dummies(df,columns=column_names[1:]);
 
 
 # Classify
@@ -41,10 +42,11 @@ selected_atts = ['cap-sh_x','cap-sh_f','cap-sur_y',
         'stalk-surbe-ring_s','stalk-col-abring_w',
         'stalk_col-bering_w','ring-ty_p','population_v',
         'habitat_d'];
+selected_atts=df.columns[1:]; # all instead of selected
 X=df[selected_atts].values;
 Y=df['edible'].values;
 
-validation_size = 0.1; seed = 7;
+validation_size = 0.8; seed = 7;
 Xtr,Xte,Ytr,Yte=model_selection.train_test_split(
         X,Y,test_size=validation_size, random_state=seed);
 
@@ -59,4 +61,3 @@ print('Accuracy:', "%.2f" % round(100*accu,2)+'%');
 for i in range(len(selected_atts)):
    print(selected_atts[i],': ', "%.2f" %\
      round(100*clf.feature_importances_[i],2)+'%');
-
